@@ -1,0 +1,25 @@
+{
+  "name": "museum.erikschlegel.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch ./client/styles/ --style=compressed"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik-Schlegel/museum.erikschlegel.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik-Schlegel/museum.erikschlegel.io/issues"
+  },
+  "homepage": "https://github.com/Erik-Schlegel/museum.erikschlegel.io#readme",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.52.2"
+  }
+}
