@@ -1,24 +1,31 @@
-// main: ./index.less
-/* ^ vscode "easy less" per-file module config */
+
+@use '../Constants/Colors' as Colors;
+
 
 /* Domain Normalizers */
-html {
+html
+{
 	/* with the standard base font size of 16px this will make 1rem === 10px. */
 	height: 100%;
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
 
-body {
+
+body
+{
 	font-size: 1.6rem;
 	height: 100%;
 	font-family: "open sans", "museo-sans", "Trebuchet MS", Verdana, Arial, sans-serif;
 }
 
+
 /* Align browsers' box sizing model. */
-* {
+*
+{
 	box-sizing: border-box;
 }
+
 
 ul,
 ol,
@@ -28,7 +35,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
 	font-size: inherit;
 	color: inherit;
 	line-height: inherit;
@@ -37,16 +45,28 @@ h6 {
 	padding: 0;
 }
 
+
+a
+{
+	color: Colors.$ALPHA;
+	text-decoration: none;
+}
+
+
 /* Remove browser's tendency to outline stuff with a solid or dotted border when clicked. */
-:focus {
+:focus
+{
 	outline: none;
 }
-::-moz-focus-inner {
+::-moz-focus-inner
+{
 	border: 0;
 }
 
+
 /* Remove IE's X button on input fields */
-::-ms-clear {
+::-ms-clear
+{
 	height: 0;
 	width: 0;
 }

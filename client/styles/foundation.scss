@@ -1,3 +1,16 @@
 
 @use '../../node_modules/normalize.css/normalize.css';
-@use 'standards/domain';
+@use './Standards/Domain';
+
+@use './Standards/Main';
+@use './Standards/Footer';
+
+@use './Constants/Colors';
+
+
+
+main,
+footer
+{
+	color: Colors.$ALPHA;
+}

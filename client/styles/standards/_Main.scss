@@ -1,0 +1,53 @@
+
+@use '../Constants/Colors';
+
+
+
+main
+{
+	height: 100%;
+	display: grid;
+	background: Colors.$PSI;
+	grid-template-rows: 7rem 1fr;
+
+	aside
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		padding: 0 1.5rem;
+		background-color: Colors.$OMEGA;
+		color: white;
+
+		h1
+		{
+			font-size: 2.6rem;
+			letter-spacing: .5rem;
+		}
+	}
+
+
+	section
+	{
+		display: grid;
+		padding: 0 1.5rem;
+		align-items: center;
+		text-align: center;
+
+		p
+		{
+			color: Colors.$BETA;
+			font-size: 1.7rem;
+			line-height: 1.5;
+		}
+	}
+
+
+	h2
+	{
+		margin-top: 2rem;
+		font-size: 4.5rem;
+		letter-spacing: .5rem;
+	}
+
+}

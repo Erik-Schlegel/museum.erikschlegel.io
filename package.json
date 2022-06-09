@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch ./client/styles/ --style=compressed"
-
+    "dev": "sass ./Client/Styles/ --watch --style=compressed",
+    "devorig": "sass ./Client/Styles/Foundation.scss:./Client/Styles/Foundation.css ./Client/Styles/Museum.scss:./Client/Styles/Museum.css --watch --style=compressed"
   },
   "repository": {
     "type": "git",
