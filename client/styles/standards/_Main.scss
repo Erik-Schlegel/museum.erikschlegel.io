@@ -38,19 +38,17 @@ main
 		nav
 		{
 			display: flex;
-			justify-content: space-between;
+			justify-content: flex-end;
 
 			a
 			{
 				display: flex;
 				width: 4.4rem;
 				height: 4.4rem;
-				justify-content: center;
-				align-items: center;
 
 				img
 				{
-					max-width: 40px;
+					max-width: 32px;
 				}
 			}
 		}
