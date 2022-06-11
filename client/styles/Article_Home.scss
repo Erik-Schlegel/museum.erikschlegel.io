@@ -1,0 +1,26 @@
+
+@use './Constants/Colors' as Colors;
+
+article#Home
+{
+	img
+	{
+		width: 70%;
+		max-width: 45rem;
+	}
+
+	h2
+	{
+		margin: 3rem 0 1.6rem;
+		font-size: 2.4rem;
+		letter-spacing: .5rem;
+	}
+
+	p
+	{
+		color: Colors.$BETA;
+		font-size: 1.5rem;
+		line-height: 1.6;
+	}
+
+}

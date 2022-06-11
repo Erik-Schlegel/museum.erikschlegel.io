@@ -53,6 +53,11 @@ a
 	cursor: pointer;
 }
 
+img
+{
+	display: inline-block;
+}
+
 
 /* Remove browser's tendency to outline stuff with a solid or dotted border when clicked. */
 :focus

@@ -49,7 +49,7 @@ main
 
 				img
 				{
-					max-width: 32px;
+					max-width: 35px;
 				}
 			}
 		}
@@ -62,30 +62,6 @@ main
 		padding: 0 1.5rem;
 		align-items: center;
 		text-align: center;
-
-		article
-		{
-			img
-			{
-				width: 60%;
-			}
-
-			h2
-			{
-				margin: 3rem 0 2.6rem;
-				font-size: 2.8rem;
-				letter-spacing: .5rem;
-			}
-
-			p
-			{
-				color: Colors.$BETA;
-				font-size: 1.7rem;
-				line-height: 1.5;
-			}
-
-		}
-
 	}
 
 
