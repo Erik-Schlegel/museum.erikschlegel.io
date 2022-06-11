@@ -63,20 +63,31 @@ main
 		align-items: center;
 		text-align: center;
 
-		p
+		article
 		{
-			color: Colors.$BETA;
-			font-size: 1.7rem;
-			line-height: 1.5;
+			img
+			{
+				width: 60%;
+			}
+
+			h2
+			{
+				margin: 3rem 0 2.6rem;
+				font-size: 2.8rem;
+				letter-spacing: .5rem;
+			}
+
+			p
+			{
+				color: Colors.$BETA;
+				font-size: 1.7rem;
+				line-height: 1.5;
+			}
+
 		}
+
 	}
 
 
-	h2
-	{
-		margin-top: 2rem;
-		font-size: 4.5rem;
-		letter-spacing: .5rem;
-	}
 
 }
