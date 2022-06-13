@@ -1,6 +1,6 @@
 
 $ALPHA: #FFFFFF;				// Font color main
-$BETA: darken($ALPHA, 30%);		// Font color secondary
+$BETA: #BBBBBB;				// Font color secondary
 //$GAMMA:
 //$DELTA:
 //$EPSILON:
@@ -20,8 +20,8 @@ $BETA: darken($ALPHA, 30%);		// Font color secondary
 //$TAU:
 //$UPSILON:
 //$PHI:
-//$CHI:
-$PSI: #161616;					//body bg
+$CHI: hsla(0,0%,100%,.08);		//lighter bg fill
+$PSI: #111111;					//body bg
 $OMEGA: #000000;				//header bg
 
 
