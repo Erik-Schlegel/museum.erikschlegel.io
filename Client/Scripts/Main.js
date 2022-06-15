@@ -2,16 +2,19 @@
 (() => {
 	let placeholderEl;
 
-	window.onload = async () => {
-		placeholderEl = document.querySelector('[data-id=ContentPlaceholder]');
+	window.addEventListener(
+		'load',
+		async () => {
+			placeholderEl = document.querySelector('[data-id=ContentPlaceholder]');
 
-		LoadAndShowContent(placeholderEl);
-
-		window.addEventListener('hashchange', () => {
 			LoadAndShowContent(placeholderEl);
-		});
-	}
-})()
+
+			window.addEventListener('hashchange', () => {
+				LoadAndShowContent(placeholderEl);
+			});
+		}
+	)
+})();
 
 
 const LoadAndShowContent = async (placeholderEl) => {
