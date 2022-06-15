@@ -1,3 +1,4 @@
+@use './Constants/Colors' as Color;
 [data-id=ModalWrapper] {
   position: fixed;
   top: 0;
@@ -10,10 +11,15 @@
   align-items: center;
 }
 
-[data-id=ModalWrapper] div {
+[data-id=ModalWrapper] > div {
+  position: relative;
   background: white;
   height: 65%;
   width: calc(100% - 3rem);
   border-radius: 1rem;
   padding: 1.5rem;
+}
+
+[data-id=ModalWrapper] button {
+  border: 1px solid;
 }
