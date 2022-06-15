@@ -14,14 +14,19 @@
 		font-size: 1.3rem;
 		color: #999;
 		background: Color.$CHI;
-		margin: 4rem 0;
+		margin: 6rem 0;
 	}
 
 
 	[data-id=Item]
 	{
 		background: Color.$OMEGA;
-		margin-bottom: 4rem;
+		margin-bottom: 7rem;
+
+		&:last-of-type
+		{
+			margin-bottom: 0;
+		}
 
 		img
 		{

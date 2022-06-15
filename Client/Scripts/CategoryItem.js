@@ -4,7 +4,7 @@
 
 	document.querySelector('body').addEventListener(
 		'click',
-		e =>
+		async e =>
 		{
 
 			if (
@@ -15,9 +15,12 @@
 				e.currentTarget.classList.remove('BodyMode_Modal');
 			}
 
-			if (e.target?.closest('[data-id=Item]')?.dataset?.itemId)
+			const itemId = e.target?.closest('[data-id=Item]')?.dataset?.itemId;
+			if (itemId)
 			{
-				e.currentTarget.classList.add('BodyMode_Modal');
+				let currentTarget = e.currentTarget;
+				await LoadAndShowModalContent(itemId);
+				currentTarget.classList.add('BodyMode_Modal');
 			}
 
 		}

@@ -1,13 +1,16 @@
 
+let placeholderEl;
+let modalPlaceholderEl;
+
 (() =>
 {
-	let placeholderEl;
 
 	window.addEventListener(
 		'load',
 		async () =>
 		{
 			placeholderEl = document.querySelector('[data-id=ContentPlaceholder]');
+			modalPlaceholderEl = document.querySelector('[data-id=ModalPlaceholder]');
 
 			LoadAndShowContent(placeholderEl);
 
@@ -26,6 +29,13 @@ const LoadAndShowContent = async (placeholderEl) =>
 {
 	let content = await LoadContent(GetRoute());
 	ShowContent(placeholderEl, content);
+}
+
+
+const LoadAndShowModalContent = async (namedTemplate) =>
+{
+	let content = await LoadContent(namedTemplate);
+	ShowContent(modalPlaceholderEl, content);
 }
 
 
