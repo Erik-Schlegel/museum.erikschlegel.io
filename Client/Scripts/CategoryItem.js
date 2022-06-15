@@ -10,8 +10,7 @@
 				e.currentTarget.classList.remove('BodyMode_Modal');
 			}
 
-			const itemId = e.target?.closest('[data-id=Item]')?.dataset?.itemId;
-			if (itemId) {
+			if (e.target?.closest('[data-id=Item]')?.dataset?.itemId) {
 				e.currentTarget.classList.add('BodyMode_Modal');
 			}
 
