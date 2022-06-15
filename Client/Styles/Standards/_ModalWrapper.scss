@@ -1,0 +1,23 @@
+
+[data-id=ModalWrapper]
+{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: hsla(0, 0%, 0%, 0.8);
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	div
+	{
+		background: white;
+		height: 65%;
+		width: calc(100% - 3rem);
+		border-radius: 1rem;
+		padding: 1.5rem;
+
+	}
+}

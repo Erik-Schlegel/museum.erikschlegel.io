@@ -1,11 +1,12 @@
 
 @use '../../node_modules/normalize.css/normalize.css';
 @use './Standards/Domain';
+@use './Constants/Colors';
 
 @use './Standards/Main';
 @use './Standards/Footer';
+@use './Standards/ModalWrapper';
 
-@use './Constants/Colors';
 
 
 

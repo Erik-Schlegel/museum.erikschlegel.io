@@ -8,6 +8,8 @@ main
 	display: grid;
 	background: Colors.$PSI;
 	grid-template-rows: 7rem 1fr;
+	position: relative;
+	z-index: 1;
 
 	aside
 	{
