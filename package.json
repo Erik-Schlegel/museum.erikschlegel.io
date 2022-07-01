@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "sass ./Client/Styles/ --watch --style=compressed",
-    "build": "",
+    "build": "echo build",
     "devorig": "sass ./Client/Styles/Foundation.scss:./Client/Styles/Foundation.css ./Client/Styles/Museum.scss:./Client/Styles/Museum.css --watch --style=compressed"
   },
   "repository": {
