@@ -59,6 +59,30 @@ img
 	display: inline-block;
 }
 
+abbr[title]
+{
+	border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+    position: relative;
+
+	&:focus::after
+	{
+		content: attr(title);
+		font-size: 1.1rem;
+		background-color: #525253;
+		border: 1px solid #6c6c6d;
+		color: white;
+		padding: .1rem .9rem;
+		white-space: nowrap;
+		left: .9rem;
+		top: 2.2rem;
+		width: auto;
+		position: absolute;
+	}
+}
+
+
 
 /* Remove browser's tendency to outline stuff with a solid or dotted border when clicked. */
 :focus
