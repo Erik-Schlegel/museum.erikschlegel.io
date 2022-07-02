@@ -76,11 +76,17 @@
 		}
 
 		p,
-		li
+		li,
+		a
 		{
 			color: Color.$GAMMA;
 			font-size: 1.4rem;
 			line-height: 1.7;
+		}
+
+		a
+		{
+			text-decoration: underline;
 		}
 
 		li
